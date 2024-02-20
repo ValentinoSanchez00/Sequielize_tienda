@@ -1,3 +1,4 @@
+
 const sequelize = require("./bd")
 const { Model, DataTypes } = require("sequelize");
 
@@ -19,4 +20,6 @@ Compra.init(
         modelName:"Compra",
     }
 )
+
+
 module.exports = Compra;
